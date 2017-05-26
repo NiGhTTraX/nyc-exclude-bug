@@ -1,0 +1,19 @@
+{
+  "name": "nyc-bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc --require babel-register mocha tests/"
+  },
+  "author": "Andrei Picus",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "~6.24.1",
+    "babel-plugin-istanbul": "~4.1.3",
+    "babel-preset-es2015": "~6.24.1",
+    "babel-register": "~6.24.1",
+    "mocha": "~3.4.2",
+    "nyc": "~10.3.2"
+  }
+}
